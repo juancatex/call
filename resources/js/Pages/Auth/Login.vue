@@ -42,7 +42,7 @@ const submit = () => {
           <div class="col-lg-4 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo" style="text-align: center;">
-                <img src="images/logo.svg" alt="logo">
+                <img src="images/logo.png" alt="logo">
               </div>
               <h4>Ingrese sus credenciales</h4> 
               <form @submit.prevent="submit" class="pt-3"> 

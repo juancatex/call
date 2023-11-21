@@ -31,10 +31,10 @@ console.log(page.props.auth.user.rol);
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         
         <Link :href="route('dashboard')" class="navbar-brand brand-logo mr-1">  
-            <img src="images/logo.svg" class="mr-2" alt="logo"/>
+            <img src="images/logo.png" class="mr-2" alt="logo"/>
        </Link>
         <Link :href="route('dashboard')" class="navbar-brand brand-logo-mini">  
-            <img src="images/logo.svg" alt="logo"/>
+            <img src="images/logo2.png" alt="logo"/>
        </Link>
 
       </div>

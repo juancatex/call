@@ -50,7 +50,7 @@ console.log(page.props.auth.user.rol);
             </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown"> 
               <DropdownLink :href="route('logout')" class="dropdown-item" method="post" as="button">
-                <i class="ti-power-off text-primary"></i>
+                <i class="ti-power-off text-success"></i>
                                             Cerrar session
               </DropdownLink> 
             </div>

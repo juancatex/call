@@ -31,7 +31,10 @@ function ver(object){
               </li>
               
               <li v-else  :class="link.active?'page-item active':'page-item'"> 
-                  <Link   :href="search?link.url+'&'+search:link.url"  class="page-link">{{ ver(link.label)}}</Link>
+                  <Link   :href="search?link.url+'&'+search:link.url"  class="page-link" style="color: #fff;
+    background-color: #57B657;
+    background: #57B657;
+    border-color: #57B657;">{{ ver(link.label)}}</Link>
               </li>
              </template>  
           </ul>

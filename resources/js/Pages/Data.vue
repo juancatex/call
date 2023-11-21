@@ -113,7 +113,7 @@ onMounted(async () => {
                                               <input type="text"   v-model="archivotext"  class="form-control file-upload-info" disabled
                                                   placeholder="Seleccionar archivo .xls, .xlsx">
                                               <span class="input-group-append">
-                                                  <button class="btn btn-primary" @click="eventocargar"
+                                                  <button class="btn btn-success" @click="eventocargar"
                                                       type="button">Cargar</button>
                                               </span>
                                           </div>

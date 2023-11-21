@@ -67,7 +67,7 @@ onMounted(async () => {
                           <div class="form-group">
                               <div class="input-group">
                                   <div class="input-group-prepend">
-                                      <span class="input-group-text bg-primary text-white"><i class="icon-search menu-icon"></i></span>
+                                      <span class="input-group-text bg-success text-white"><i class="icon-search menu-icon"></i></span>
                                   </div>
                                   <input type="text" class="form-control" v-model="searchField" placeholder="Ingrese el nombre a buscar"> 
                               </div>

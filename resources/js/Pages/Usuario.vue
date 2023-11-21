@@ -110,7 +110,7 @@ onMounted(async () => {
                                     <InputError class="text-danger" :message="form.errors.password_confirmation" />
                               </div>
                               
-                                 <PrimaryButton class="btn btn-primary mr-2" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
+                                 <PrimaryButton class="btn btn-success mr-2" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                                     Registrar
                                 </PrimaryButton>
                           </form>
